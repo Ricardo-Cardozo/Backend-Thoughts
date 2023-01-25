@@ -7,7 +7,7 @@ const ThoughtRoute = require("./routes/ThoughtRoute");
 const app = express();
 
 //middlewares
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://front-thoughts.onrender.com/" }));
 
 app.use(
   express.urlencoded({
