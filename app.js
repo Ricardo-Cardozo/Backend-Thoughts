@@ -9,7 +9,7 @@ const app = express();
 //middlewares
 app.use(cors({ 
   credentials: true, 
-  origin: "https://remarkable-sprite-b45eca.netlify.app/",
+  origin: "https://front-thoughts.onrender.com/",
   methods: ["GET", "POST", "PATCH", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
