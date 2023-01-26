@@ -9,7 +9,7 @@ const app = express();
 //middlewares
 app.use(cors({ 
   credentials: true, 
-  origin: "https://front-thoughts.onrender.com/",
+  origin: "https://front-thoughts.onrender.com",
   methods: ["GET", "POST", "PATCH", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
